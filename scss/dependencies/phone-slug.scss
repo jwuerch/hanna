@@ -1,0 +1,207 @@
+/** PHONE SLUG **/
+#phone-slug-1 {
+  a:hover {
+    text-decoration:none;
+  }
+  width:100%;
+  background:transparent;
+  position:absolute;
+  z-index:5;
+  margin-top:-75px;
+  @media (max-width:991px) {
+    z-index:initial;
+    position:relative;
+    margin-top:0;
+    background-image: radial-gradient(50% 120%, #FFFFFF 44%, #889A9A 100%);
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.22);
+  }
+  @media (max-width:767px) {
+    padding:20px 0 0px 0;
+    background-image: linear-gradient(-180deg, #FFFFFF 0%, #EDEAE8 100%);
+  }
+  @media (max-width:480px) {
+    .row {
+      margin:0;
+    }
+  }
+  > .container {
+    /* Rectangle: */
+    /* Rectangle: */
+    background-image: radial-gradient(50% 120%, #FFFFFF 44%, #889A9A 100%);
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.22);
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.22);
+    border-radius: 12px;
+    padding:30px 0;
+    padding-bottom:0px;
+    @media (max-width:991px) {
+      box-shadow:none;
+      border:none;
+      background:none;
+    }
+    @media (max-width:767px) {
+      background:none;
+      width:100%;
+    }
+
+  }
+  .col-1 {
+    text-align:right;
+    padding-right:20px;
+    @media (max-width:991px) {
+    }
+
+    @media (max-width:767px) {
+      padding:0;
+      text-align:center;
+    }
+
+  }
+
+  .col-2 {
+    text-align:left;
+    border-left:2px solid #764A1D;
+    padding-left:20px;
+    @media (max-width:767px) {
+      border-left:none;
+      text-align:center;
+      padding:0;
+    }
+    p {
+      margin-bottom:-5px;
+      font-family: $open-sans;
+      font-weight:700;
+      font-size: 17px;
+      color: #5D7278;
+      margin-top:-10px;
+    }
+    .new-phone {
+      /* (888) 496-2721: */
+      font-family: $roboto-condensed;
+      font-size: 42px;
+      font-weight:700;
+      a {
+        color: #0061A3;
+      }
+    }
+  }
+  .new-text {
+    font-weight:400;
+    font-size: 17px;
+    color: #444444;
+    margin-bottom:-15px;
+    margin-top:-5px;
+    @media (max-width:767px) {
+      margin-bottom:-12px;
+    }
+  }
+  .new-hotline {
+    font-weight:700;
+    font-size: 42px;
+    color: #444444;
+    @media (max-width:480px) {
+      font-size:36px;
+      margin:5px 0;
+    }
+  }
+  .old-text {
+    margin-bottom:0;
+    font-size: 20px;
+    color: #444444;
+    letter-spacing: 0;
+    line-height: 48px;
+
+  }
+  .old-hotline {
+    font-family: $lato;
+    font-weight:900;
+    font-size: 20px;
+    color: #5D7278;
+    letter-spacing: 0;
+    margin-top:10px;
+    line-height: 48px;
+    a {
+      color:#5D7278;
+    }
+    @media (max-width:767px) {
+      top:-20px;
+
+    }
+  }
+  .button {
+    max-width:300px;
+    font-size:16px;
+  }
+}
+
+#phone-slug-1-mobile {
+  padding:20px 0;
+  background-image: radial-gradient(50% 120%, #FFFFFF 44%, #889A9A 100%);
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.22);
+  p {
+    margin-bottom:0;
+  }
+  .p-1 {
+    font-family: $lato;
+    font-weight:700;
+    font-size: 16px;
+    color: #516A5C;
+    margin-bottom:-10px;
+  }
+  .p-2 {
+    font-family: $roboto-condensed;
+    font-weight:700;
+    font-size: 42px;
+    a {
+      color: #47607E;
+
+    }
+  }
+  .p-3, .p-4 {
+    font-family: $lato;
+    font-weight:400;
+    font-size: 17px;
+    color: #4A6456;
+    a {
+      color: #4A6456;
+    }
+  }
+  a:hover {
+    text-decoration:none;
+  }
+  .button {
+    margin-bottom:10px;
+    @media (max-width:480px) {
+      max-width:300px;
+      font-size:17px;
+      padding-top:2px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+  }
+}
+#phone-slug-2 {
+  padding:40px 0;
+  background-image: radial-gradient(50% 37%, #FFFFFF 50%, #889A9A 100%);
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.22);
+  .p-1 {
+    margin-bottom:-15px;
+    font-family: $open-sans;
+    font-size: 20.39px;
+    color: #4A6456;
+  }
+  .p-2 {
+    margin-bottom:10px;
+    font-family: $roboto-condensed;
+    font-weight:700;
+    font-size: 50.4px;
+    color: #024378;
+    a {
+      color: #024378;
+
+    }
+  }
+  a:hover {
+    text-decoration:none;
+  }
+}

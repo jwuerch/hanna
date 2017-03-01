@@ -1,0 +1,29 @@
+#reviews {
+  padding:60px;
+  background:url('../images/reviews-bg.jpg');
+  background-size:cover;
+  padding-bottom:80px;
+  border-bottom:2px solid #FFF;
+  background-attachment:fixed;
+  h2 {
+    /* See What Our Patient: */
+    font-family: $roboto-condensed;
+    font-weight:300;
+    font-size: 48px;
+    color: #024378;
+    letter-spacing: -0.5px;
+    @media (max-width:480px) {
+      font-size:36px;
+    }
+  }
+  iframe {
+    max-height:600px;
+    @media (max-width:480px) {
+      max-height:400px;
+    }
+  }
+}
+
+#reviews > div > div > div > div {
+  display:none;
+}

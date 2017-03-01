@@ -1,0 +1,119 @@
+#meet-the-doctors {
+  padding-top:200px;
+  padding-bottom:60px;
+  background:url('../images/bg-texture.jpg');
+  background-size:cover;
+  .img-wrap img {
+    border-radius:16px;
+  }
+  @media (max-width:991px) {
+    padding-top:60px;
+    img {
+      margin:0 auto;
+      margin-bottom:30px;
+
+    }
+    .img-wrap {
+      text-align:center;
+    }
+  }
+
+  h2 {
+    font-family: $roboto-condensed;
+    font-weight:300;
+    font-size: 48px;
+    color: #024378;
+    letter-spacing: -0.41px;
+    line-height: 61px;
+  }
+  @media (max-width:480px) {
+    h2 {
+      font-size:36px;
+    }
+  }
+  h6 {
+    font-family: $lato;
+    font-weight:700;
+    font-size: 24px;
+    color: #414B4D;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  p {
+    font-family: $lato;
+    font-weight:700;
+    font-size: 20px;
+    color: #414B4D;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  .p-3 {
+    font-family: $lato;
+    font-weight:400;
+    font-style:italic;
+    font-size: 16px;
+    color: #545C5E;
+    letter-spacing: 0;
+    line-height: 25px;
+  }
+  .col-sm-4 img {
+    border-radius:16px;
+  }
+  .row-1 {
+    border-bottom:2px solid #979797;
+    margin-bottom:60px;
+    padding-bottom:20px;
+  }
+
+}
+
+#team-carousel {
+  background-image: linear-gradient(-180deg, #889A9A 35%, #5D7278 100%);
+  padding:40px 0;
+  h2 {
+    font-family: $roboto-condensed;
+    font-weight:300;
+    font-size: 48px;
+    color: #FFFFFF;
+    letter-spacing: 1.5px;
+    line-height: 61px;
+    margin-bottom:0;
+    @media (max-width:480px) {
+      font-size:42px;
+    }
+  }
+  h6 {
+    font-family: $lato;
+    font-weight:700;
+    font-size: 18px;
+    color: #B7F1F6;
+    letter-spacing: 1.5px;
+    margin-bottom:40px;
+    @media (max-width:480px) {
+      font-size:16px;
+    }
+  }
+  img {
+    border-radius:16px;
+  }
+  h4 {
+    font-family: $lato;
+    font-weight:700;
+    margin-top:10px;
+    font-size: 24px;
+    color: #FFFFFF;
+  }
+  .owl-prev, .owl-next {
+    opacity:1 !important;
+    background:#00939A;
+    color:#FFF;
+    border:2px solid #FFF;
+    top:45%;
+  }
+  .owl-prev {
+    left:-18px;
+  }
+  .owl-next {
+    right:-18px;
+  }
+}

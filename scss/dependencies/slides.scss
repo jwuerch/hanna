@@ -1,0 +1,160 @@
+#slider, .swiper-container, .swiper-wrapper, .swiper-slide {
+  max-height:800px;
+}
+
+#slide-1 {
+  background-size:cover;
+  background-position:30% 0%;
+  h2 {
+    /* Positive & Modern De: */
+    font-family: $roboto-condensed;
+    font-size: 77px;
+    letter-spacing: -1.05px;
+    line-height: 98px;
+    font-weight:700;
+    margin-bottom:-25px;
+  }
+  .positive {
+    color:#85B04B !important;
+  }
+  .and {
+    color:#0061A3;
+  }
+  .modern {
+    color:#00939A;
+  }
+  h3 {
+    font-family:$roboto-condensed;
+    font-weight:400;
+    font-size:94px;
+    color:#5D7278;
+    margin-bottom:-40px;
+  }
+  h4 {
+    color:#889A9A;
+    font-family:$roboto-condensed;
+    font-weight:400;
+    font-size:94px;
+    margin-bottom:0px;
+
+  }
+  p {
+    font-family: $lato;
+    font-weight:700;
+    font-size: 24px;
+    color: #414B4D;
+    letter-spacing: 0;
+    margin-bottom:20px;
+  }
+  .button {
+    margin-top:20px;
+  }
+}
+.icon-angle-down {
+  position:relative;
+  top:-100px;
+  width:40px;
+  height:40px;
+  color:#FFF;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-radius:9999px;
+  /* Oval: */
+  background: #00939A;
+  &:hover {
+    color:#FFF;
+    text-decoration:none;
+  }
+  i:hover {
+    text-decoration:none;
+  }
+}
+
+#slider > div > div > a.one-page-arrow:hover {
+  text-decoration: none;
+}
+
+#slide-2 {
+  background-size:cover;
+  background-position:30% 100%;
+  .star-set {
+    text-align:center;
+    .icon-star3 {
+      color: #FFD900;
+      font-size:48px;
+      text-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+    }
+  }
+  h2 {
+    margin-bottom:5px;
+    font-family: $roboto-condensed;
+    font-weight:700;
+    font-size: 42px;
+    letter-spacing: -0.66px;
+    .see-what-our {
+      color:#85B04B;
+    }
+    .patients-are-saying {
+      color:#00939A;
+    }
+  }
+  .p-2 {
+    font-family: $lato;
+    font-weight:700;
+    font-size: 32px;
+    color: #515151;
+    letter-spacing: -0.34px;
+    line-height: 49px;
+  }
+  .p-3 {
+    color:#515151;
+    font-family: $lato;
+    font-weight:400;
+    font-size: 32px;
+    letter-spacing: -0.34px;
+    line-height: 49px;
+  }
+  .btn-wrap {
+    margin-top:30px;
+    text-align:center;
+  }
+
+}
+
+#slide-3 {
+  background-size:cover;
+  background-position:50% 0%;
+  h2 {
+    font-family: $roboto-condensed;
+    font-size: 77.76px;
+    color: #85B04B;
+    letter-spacing: 0.81px;
+    line-height: 86px;
+    font-weight:700;
+    margin-bottom:-10px;
+  }
+  h3 {
+    font-family: $roboto-condensed;
+    font-weight:700;
+    font-size: 46px;
+    color: #00939A;
+    letter-spacing: 1.45px;
+    line-height: 86px;
+    margin-bottom:10px;
+
+  }
+  h4, h5 {
+    font-family: $lato;
+    font-weight:400;
+    font-size: 37px;
+    color: #444444;
+    letter-spacing: -0.24px;
+    line-height: 39px;
+    margin-bottom:0;
+
+  }
+  .button {
+    margin-top:30px;
+  }
+}

@@ -1,0 +1,86 @@
+// Canvas Dependencies //
+$lato: 'Lato', sans-serif;
+$roboto-condensed: 'Roboto Condensed', sans-serif;
+$open-sans: 'Open Sans', sans-serif;
+$merriweather: 'Merriweather', sans-serif;
+
+@import "dependencies/bootstrap.scss";
+@import "dependencies/style.scss";
+@import "dependencies/swiper.scss";
+@import "../css/font-icons";
+@import "dependencies/animate.scss";
+@import "dependencies/responsive.scss";
+@import "dependencies/navbar.scss";
+@import "dependencies/footer.scss";
+@import "dependencies/phone-slug.scss";
+@import "dependencies/contact-modal.scss";
+@import "dependencies/specials.scss";
+@import "dependencies/location-section.scss";
+@import "dependencies/slides.scss";
+@import "dependencies/meet-the-doctors.scss";
+@import "dependencies/service-modal.scss";
+@import "dependencies/watch-video.scss";
+@import "dependencies/reviews.scss";
+@import "dependencies/no-insurance.scss";
+
+
+// End Canvas Dependencies //
+
+
+// Variables to define first //
+
+$primary-font: 'Lato', sans-serif;
+$secondary-font: 'Open Sans', sans-serif;
+$third-font: 'Roboto Condensed', sans-serif;
+$button-color: orange;
+$button-hover:gray;
+
+// CSS //
+
+body {
+  font-family:$primary-font;
+}
+
+h1 {
+  font-size:64px;
+}
+
+h2 {
+  font-size:48px;
+}
+
+h3 {
+  font-size:36px;
+}
+
+h4 {
+  font-size:28px;
+}
+
+h5 {
+  font-size:24px;
+}
+
+h6 {
+  font-size:20px;
+}
+
+p {
+  font-size:18px;
+}
+
+.button {
+  background: #FA6D22;
+  border: 2px solid #FFFFFF;
+  box-shadow: 3px 3px 14px 0 rgba(0,0,0,0.15);
+  border-radius: 8px;
+  text-transform:uppercase;
+
+  padding-top:1px;
+}
+.button:hover {
+  background:#E7651F;
+}
+.content-wrap {
+  padding:0;
+}
