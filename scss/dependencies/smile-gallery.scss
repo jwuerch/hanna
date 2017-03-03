@@ -1,0 +1,134 @@
+#smile-gallery {
+  background: rgba(133,176,75,0.13);
+  padding:50px 0;
+  h2 {
+    /* Smile Gallery: */
+    font-family: $roboto-condensed;
+    font-weight:300;
+    font-size: 48px;
+    color: #024378;
+    letter-spacing: 3.5px;
+    @media (max-width:480px) {
+      font-size:42px;
+    }
+  }
+  .col-2 {
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    @media (max-width:1200px) {
+      justify-content:center;
+    }
+    @media (max-width:767px) {
+      flex-wrap:wrap;
+    }
+
+    img {
+
+      width:263px;
+      height:263px;
+      border-radius: 31px;
+      @media (max-width:1200px) {
+        margin:0 30px;
+        margin-top:30px;
+      }
+      @media (max-width:767px) {
+        margin-left:0 !important;
+        margin-right:0 !important;
+      }
+
+
+
+    }
+    .img-wrap p {
+      margin-left:10px;
+      font-family: $open-sans;
+      font-weight:400;
+      font-size: 20px;
+      color: #6E6E6D;
+      letter-spacing: -0.5px;
+      @media (max-width:1200px) {
+        margin-left:40px;
+      }
+      @media (max-width:767px) {
+        text-align:center;
+        margin-left:0;
+      }
+    }
+  }
+  @media (max-width:480px) {
+    .button {
+      max-width:275px;
+      text-align:center;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+  }
+}
+
+#logos {
+  padding:30px 0;
+  background-image: radial-gradient(50% 37%, #FFFFFF 50%, #889A9A 100%);
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.22);
+  p {
+    text-align:center;
+    /* Pay Your Bill:: */
+    font-family: $roboto-condensed;
+    font-weight:400;
+    font-size: 24px;
+    color: #5D7278;
+    letter-spacing: 0;
+  }
+  .button-2 {
+    background:#85B04B;
+    border: 1px solid #FFFFFF;
+    box-shadow: 3px 3px 14px 0 rgba(0,0,0,0.15);
+    border-radius: 8px;
+    width:275px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    &:hover {
+      background:#789F44;
+    }
+  }
+  .row {
+    display:flex;
+    flex-wrap:nowrap;
+    @media (max-width:1200px) {
+      flex-wrap:wrap;
+    }
+    .col-1 {
+      width:66.66667%;
+      display:flex;
+      justify-content:space-between;
+      flex-wrap:wrap;
+      @media (max-width:1200px) {
+        width:100%;
+        justify-content:space-around;
+        margin-bottom:30px;
+      }
+      p {
+        width:100%;
+      }
+      img {
+        @media (max-width:767px) {
+          margin:20px 0;
+        }
+      }
+    }
+    .col-2 {
+      width:33.333334%;
+      @media (max-width:1200px) {
+        width:100%;
+      }
+      p {
+      }
+      .btn-wrap {
+        display:flex;
+        justify-content:center;
+      }
+    }
+  }
+}

@@ -59,3 +59,62 @@
     width:100%;
   }
 }
+
+#implant-dentistry {
+  background:url('../images/services/implants.jpg');
+  background-size:cover;
+  min-height:800px;
+  background-position:50% 100%;
+
+  @media (max-width:1200px) {
+    background:none;
+    min-height:initial;
+  }
+}
+
+#more-services {
+  padding:50px 0;
+
+  background-image: linear-gradient(0deg, #889A9A 31%, #FFFFFF 100%);
+  h2 {
+    /* More Services: */
+    font-family: $roboto-condensed;
+    font-weight:300;
+    font-size: 48px;
+    color: #FFFFFF;
+    margin-bottom:0;
+    letter-spacing: 3.5px;
+  }
+  h6 {
+    margin-bottom:40px;
+  }
+  .owl-prev, .owl-next {
+    opacity:1 !important;
+    color:#FFF;
+    background:#00939A;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border:none;
+    top:40%;
+  }
+  .owl-prev {
+    left:-18px;
+  }
+  .owl-next {
+    right:-18px;
+  }
+  img {
+    border-radius:16px;
+    border:2px solid #FFF;
+  }
+  h4 {
+    /* Family Care: */
+    font-family: $roboto-condensed;
+    font-weight:400;
+    margin-top:15px;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+  }
+}
