@@ -26718,6 +26718,33 @@ h4.modal-title {
             -ms-flex-pack: center;
                 justify-content: center; }
 
+#smile-gallery-modal #oc-portfolio3 {
+  padding: 20px; }
+
+#smile-gallery-modal .modal-dialog {
+  background: #FFF; }
+
+#smile-gallery-modal .owl-prev, #smile-gallery-modal .owl-next {
+  border: none;
+  opacity: 1 !important;
+  background: #00939A;
+  color: #FFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+#smile-gallery-modal .owl-prev {
+  left: -18px; }
+
+#smile-gallery-modal .owl-next {
+  right: -18px; }
+
 body {
   font-family: "Lato", sans-serif; }
 
