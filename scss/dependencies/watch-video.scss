@@ -57,5 +57,14 @@
     align-items:center;
     margin:0 auto;
     margin-top:-20px;
+    @media (max-width:767px) {
+      margin-top:0;
+    }
+  }
+}
+
+#watch-video .center img {
+  @media (max-width:600px) {
+    width:90% !important;
   }
 }

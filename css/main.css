@@ -25721,10 +25721,26 @@ a.social-icon.si-colored {
     font-weight: 700;
     font-size: 50.4px;
     color: #024378; }
+    @media (max-width: 480px) {
+      #phone-slug-2 .p-2 {
+        font-size: 36px; } }
     #phone-slug-2 .p-2 a {
       color: #024378; }
   #phone-slug-2 a:hover {
     text-decoration: none; }
+  @media (max-width: 767px) {
+    #phone-slug-2 .button {
+      max-width: 275px;
+      font-size: 16px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; } }
 
 /** Contact Modal **/
 .form-error {
@@ -25964,6 +25980,16 @@ h4.modal-title {
     color: #024378; }
   #specials .specials-save.specials-3 {
     color: #00939A; }
+
+@media (max-width: 480px) {
+  #specials h2 {
+    line-height: 45px;
+    margin-bottom: 20px;
+    font-size: 44px; } }
+
+@media (max-width: 480px) {
+  #specials h3 {
+    font-size: 20px; } }
 
 #section-contact .container {
   margin-left: 0;
@@ -26431,6 +26457,13 @@ h4.modal-title {
             align-items: center;
     margin: 0 auto;
     margin-top: -20px; }
+    @media (max-width: 767px) {
+      #watch-video .img-wrap {
+        margin-top: 0; } }
+
+@media (max-width: 600px) {
+  #watch-video .center img {
+    width: 90% !important; } }
 
 #reviews {
   padding: 60px;
@@ -26454,9 +26487,16 @@ h4.modal-title {
     @media (max-width: 480px) {
       #reviews iframe {
         max-height: 400px; } }
+  @media (max-width: 767px) {
+    #reviews .container {
+      width: 100% !important; } }
 
 #reviews > div > div > div > div {
   display: none; }
+
+@media (max-width: 480px) {
+  .request-appointment-container .schedule-form-submit {
+    display: block !important; } }
 
 #no-insurance {
   border-bottom: 4px solid #FFF;
@@ -26613,8 +26653,14 @@ h4.modal-title {
     color: #FFFFFF;
     margin-bottom: 0;
     letter-spacing: 3.5px; }
+    @media (max-width: 480px) {
+      #more-services h2 {
+        font-size: 42px; } }
   #more-services h6 {
     margin-bottom: 40px; }
+    @media (max-width: 480px) {
+      #more-services h6 {
+        font-size: 18px; } }
   #more-services .owl-prev, #more-services .owl-next {
     opacity: 1 !important;
     color: #FFF;
@@ -26855,5 +26901,12 @@ p {
 
 .content-wrap {
   padding: 0; }
+
+h2 {
+  letter-spacing: 0 !important; }
+  @media (max-width: 480px) {
+    h2 {
+      font-size: 36px !important;
+      line-height: 40px !important; } }
 
 /*# sourceMappingURL=main.css.map */

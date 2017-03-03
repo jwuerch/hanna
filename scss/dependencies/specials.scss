@@ -239,3 +239,18 @@ $p-color: red;
     color:#00939A;
   }
 }
+
+#specials {
+  h2 {
+    @media (max-width:480px) {
+      line-height:45px;
+      margin-bottom:20px;
+      font-size:44px;
+    }
+  }
+  h3 {
+    @media (max-width:480px) {
+      font-size:20px;
+    }
+  }
+}

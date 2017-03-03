@@ -196,6 +196,9 @@
     font-weight:700;
     font-size: 50.4px;
     color: #024378;
+    @media (max-width:480px) {
+      font-size:36px;
+    }
     a {
       color: #024378;
 
@@ -203,5 +206,14 @@
   }
   a:hover {
     text-decoration:none;
+  }
+  .button {
+    @media (max-width:767px) {
+      max-width:275px;
+      font-size:16px;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }
   }
 }

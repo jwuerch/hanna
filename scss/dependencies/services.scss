@@ -84,9 +84,15 @@
     color: #FFFFFF;
     margin-bottom:0;
     letter-spacing: 3.5px;
+    @media (max-width:480px) {
+      font-size:42px;
+    }
   }
   h6 {
     margin-bottom:40px;
+    @media (max-width:480px) {
+      font-size:18px;
+    }
   }
   .owl-prev, .owl-next {
     opacity:1 !important;

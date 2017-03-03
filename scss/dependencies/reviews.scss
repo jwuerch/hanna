@@ -22,8 +22,19 @@
       max-height:400px;
     }
   }
+  .container {
+    @media (max-width:767px) {
+      width:100% !important;
+    }
+  }
 }
 
 #reviews > div > div > div > div {
   display:none;
 }
+.request-appointment-container .schedule-form-submit {
+  @media (max-width:480px) {
+    display:block !important;
+  }
+}
+
