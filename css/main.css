@@ -26517,7 +26517,7 @@ h4.modal-title {
         margin-top: 0; } }
 
 #reviews {
-  padding: 60px;
+  padding: 60px 0;
   background: url("../images/reviews-bg.jpg");
   background-size: cover;
   padding-bottom: 80px;
@@ -26540,9 +26540,6 @@ h4.modal-title {
     @media (max-width: 480px) {
       #reviews iframe {
         max-height: 400px; } }
-  @media (max-width: 767px) {
-    #reviews .container {
-      width: 100% !important; } }
 
 #reviews > div > div > div > div {
   display: none; }

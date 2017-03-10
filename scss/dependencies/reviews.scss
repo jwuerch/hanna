@@ -1,5 +1,5 @@
 #reviews {
-  padding:60px;
+  padding:60px 0;
   background:url('../images/reviews-bg.jpg');
   background-size:cover;
   padding-bottom:80px;
@@ -24,11 +24,7 @@
       max-height:400px;
     }
   }
-  .container {
-    @media (max-width:767px) {
-      width:100% !important;
-    }
-  }
+  
 }
 
 #reviews > div > div > div > div {
