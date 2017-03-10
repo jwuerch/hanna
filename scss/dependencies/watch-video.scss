@@ -1,8 +1,10 @@
 #watch-video {
+  padding:50px 0;
+  padding-top:0;
   background:url('../images/video-bg.jpg');
   background-size:cover;
   background-attachment:fixed;
-  height:800px;
+  height:1000px;
   border-bottom:2px solid #FFF;
   iframe {
     max-width:800px;
@@ -10,6 +12,7 @@
   }
   .fluid-width-video-wrapper {
     max-width:800px;
+    margin:20px 0;
   }
   .center {
     position:relative;
@@ -17,7 +20,7 @@
     display:flex;
     justify-content:center;
     align-items:center;
-    height:800px;
+    height:1000px;
     @media (max-width:991px) {
       height:600px;
     }
