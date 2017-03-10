@@ -26339,7 +26339,7 @@ h4.modal-title {
       font-size: 36px; } }
   #meet-the-doctors h6 {
     font-family: "Lato", sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 24px;
     color: #414B4D;
     letter-spacing: 0;
@@ -26477,7 +26477,6 @@ h4.modal-title {
     padding: 30px; }
   #watch-video .img-wrap {
     border: 2px solid #FFF;
-    display: inline-block;
     border-radius: 9999px;
     width: 125px;
     height: 125px;
