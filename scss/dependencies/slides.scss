@@ -8,7 +8,7 @@
   h2 {
     /* Positive & Modern De: */
     font-family: $roboto-condensed;
-    font-size: 72px;
+    font-size: 74px;
     letter-spacing: -1.05px;
     line-height: 70px;
     font-weight:700;
@@ -26,16 +26,17 @@
   h3 {
     font-family:$roboto-condensed;
     font-weight:400;
-    font-size:94px;
+    font-size:48px;
     color:#5D7278;
-    margin-bottom:-50px;
+    margin-bottom:-25px;
+    margin-top:20px;
   }
   h4 {
     color:#889A9A;
     font-family:$roboto-condensed;
     font-weight:400;
-    font-size:94px;
-    margin-bottom:0px;
+    font-size:48px;
+    margin-bottom:10px;
 
   }
   p {
@@ -90,7 +91,7 @@
     margin-bottom:5px;
     font-family: $roboto-condensed;
     font-weight:700;
-    font-size: 42px;
+    font-size: 40px;
     letter-spacing: -0.66px;
     .see-what-our {
       color:#85B04B;
@@ -102,16 +103,16 @@
   .p-2 {
     font-family: $lato;
     font-weight:700;
-    font-size: 32px;
+    font-size: 24px;
     color: #515151;
     letter-spacing: -0.34px;
-    line-height: 49px;
+    line-height: 30px;
   }
   .p-3 {
     color:#515151;
     font-family: $lato;
     font-weight:400;
-    font-size: 32px;
+    font-size: 24px;
     letter-spacing: -0.34px;
     line-height: 49px;
   }
@@ -127,7 +128,7 @@
   background-position:50% 0%;
   h2 {
     font-family: $roboto-condensed;
-    font-size: 77.76px;
+    font-size: 74px;
     color: #85B04B;
     letter-spacing: 0.81px;
     line-height: 86px;
@@ -137,7 +138,7 @@
   h3 {
     font-family: $roboto-condensed;
     font-weight:700;
-    font-size: 46px;
+    font-size: 48px;
     color: #00939A;
     letter-spacing: 1.45px;
     line-height: 86px;
@@ -157,4 +158,12 @@
   .button {
     margin-top:30px;
   }
+}
+
+#slide-1 .slider-caption, #slide-2 .slider-caption {
+  margin-top:-50px;
+}
+
+#slide-3 .slider-caption {
+  margin-top:-60px;
 }
