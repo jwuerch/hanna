@@ -42,8 +42,5 @@
         }
     });
 
-
-    $('#video-modal .close').click(function() {
-        $('#video-modal iframe').attr('src', $('#video-modal  iframe').attr('src'));
-    });
+    $('#reviews iframe').css('max-width', '100%');
 })(jQuery);
