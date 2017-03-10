@@ -4,9 +4,27 @@
   background-attachment:fixed;
   height:800px;
   border-bottom:2px solid #FFF;
+  iframe {
+    max-width:800px;
+    margin:0 auto;
+  }
+  .fluid-width-video-wrapper {
+    max-width:800px;
+  }
   .center {
-    top:44%;
     position:relative;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:800px;
+    @media (max-width:991px) {
+      height:600px;
+    }
+    @media (max-width:600px) {
+      height:380px;
+    }
+
 
     p {
       color:#FFF;
@@ -62,8 +80,3 @@
   }
 }
 
-#watch-video .center img {
-  @media (max-width:600px) {
-    width:90% !important;
-  }
-}
