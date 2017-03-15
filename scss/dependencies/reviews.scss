@@ -26,10 +26,11 @@
   }
 
 }
-
-#reviews > div > div > div > div {
+#reviews > div > div > div > div > div > div {
   display:none;
 }
+
+
 .request-appointment-container .schedule-form-submit {
   @media (max-width:480px) {
     display:block !important;

@@ -43,4 +43,9 @@
     });
 
     $('#reviews iframe').css('max-width', '100%');
+
+
+    $('#lightbox-launch-btn').on('click', function() {
+        $('#lightbox-gallery-2 a:first').click();
+    });
 })(jQuery);

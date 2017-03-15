@@ -26031,21 +26031,21 @@ h4.modal-title {
       text-align: center;
       margin: 0 auto; } }
 
-#contact-form-overlay-mini {
+#contact-form-overlay-mini, .contact-overlay {
   float: left;
   padding-top: 50px;
   width: 450px; }
   @media (max-width: 1200px) {
-    #contact-form-overlay-mini {
+    #contact-form-overlay-mini, .contact-overlay {
       padding-top: 50px; } }
   @media (max-width: 991px) {
-    #contact-form-overlay-mini {
+    #contact-form-overlay-mini, .contact-overlay {
       padding-top: 0; } }
-  #contact-form-overlay-mini .img-wrap {
+  #contact-form-overlay-mini .img-wrap, .contact-overlay .img-wrap {
     width: 100%;
     text-align: center; }
   @media (max-width: 767px) {
-    #contact-form-overlay-mini {
+    #contact-form-overlay-mini, .contact-overlay {
       width: 100%;
       box-shadow: none;
       margin: 0 auto;
@@ -26053,17 +26053,17 @@ h4.modal-title {
       padding-bottom: 0;
       padding-left: 10px;
       padding-right: 10px; } }
-  #contact-form-overlay-mini img {
+  #contact-form-overlay-mini img, .contact-overlay img {
     margin-bottom: 20px;
     max-height: 100px; }
     @media (max-width: 991px) {
-      #contact-form-overlay-mini img {
+      #contact-form-overlay-mini img, .contact-overlay img {
         padding-top: 30px;
         max-height: 150px; } }
     @media (max-width: 767px) {
-      #contact-form-overlay-mini img {
+      #contact-form-overlay-mini img, .contact-overlay img {
         padding-top: 0; } }
-  #contact-form-overlay-mini p {
+  #contact-form-overlay-mini p, .contact-overlay p {
     text-align: center;
     font-family: "Lato", sans-serif;
     font-weight: 400;
@@ -26072,51 +26072,51 @@ h4.modal-title {
     letter-spacing: 0;
     line-height: 25px; }
     @media (max-width: 1200px) {
-      #contact-form-overlay-mini p {
+      #contact-form-overlay-mini p, .contact-overlay p {
         font-size: 16px; } }
-  #contact-form-overlay-mini .p-1, #contact-form-overlay-mini .p-3 {
+  #contact-form-overlay-mini .p-1, #contact-form-overlay-mini .p-3, .contact-overlay .p-1, .contact-overlay .p-3 {
     margin-bottom: 0; }
-  #contact-form-overlay-mini .p-4 {
+  #contact-form-overlay-mini .p-4, .contact-overlay .p-4 {
     margin-bottom: 25px; }
-  #contact-form-overlay-mini .p-5 {
+  #contact-form-overlay-mini .p-5, .contact-overlay .p-5 {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-size: 16px;
     text-decoration: underline;
     letter-spacing: 0;
     line-height: 25px; }
-    #contact-form-overlay-mini .p-5 a {
+    #contact-form-overlay-mini .p-5 a, .contact-overlay .p-5 a {
       color: #FA6D22; }
-  #contact-form-overlay-mini .p-6 {
+  #contact-form-overlay-mini .p-6, .contact-overlay .p-6 {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-size: 17px;
     color: #4A6456;
     margin-bottom: 15px; }
     @media (max-width: 991px) {
-      #contact-form-overlay-mini .p-6 {
+      #contact-form-overlay-mini .p-6, .contact-overlay .p-6 {
         margin-bottom: 5px; } }
-  #contact-form-overlay-mini .p-7 {
+  #contact-form-overlay-mini .p-7, .contact-overlay .p-7 {
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 700;
     font-size: 48px; }
     @media (max-width: 991px) {
-      #contact-form-overlay-mini .p-7 {
+      #contact-form-overlay-mini .p-7, .contact-overlay .p-7 {
         font-size: 36px; } }
     @media (max-width: 767px) {
-      #contact-form-overlay-mini .p-7 {
+      #contact-form-overlay-mini .p-7, .contact-overlay .p-7 {
         font-size: 32px; } }
-    #contact-form-overlay-mini .p-7 a {
+    #contact-form-overlay-mini .p-7 a, .contact-overlay .p-7 a {
       color: #024378; }
-  #contact-form-overlay-mini .p-8 {
+  #contact-form-overlay-mini .p-8, .contact-overlay .p-8 {
     font-family: "Open Sans", sans-serif;
     font-size: 17px;
     color: #4A6456;
     margin-bottom: 35px; }
-    #contact-form-overlay-mini .p-8 a {
+    #contact-form-overlay-mini .p-8 a, .contact-overlay .p-8 a {
       color: #4A6456;
       font-weight: 700; }
-  #contact-form-overlay-mini .button {
+  #contact-form-overlay-mini .button, .contact-overlay .button {
     max-width: 300px;
     font-size: 18px;
     display: -webkit-box;
@@ -26129,10 +26129,10 @@ h4.modal-title {
         -ms-flex-align: center;
             align-items: center; }
     @media (max-width: 480px) {
-      #contact-form-overlay-mini .button {
+      #contact-form-overlay-mini .button, .contact-overlay .button {
         max-width: 275px;
         font-size: 16px; } }
-  #contact-form-overlay-mini .btn-wrap {
+  #contact-form-overlay-mini .btn-wrap, .contact-overlay .btn-wrap {
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -26140,7 +26140,7 @@ h4.modal-title {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
-  #contact-form-overlay-mini .p-9 {
+  #contact-form-overlay-mini .p-9, .contact-overlay .p-9 {
     font-family: "Lato", sans-serif;
     font-weight: 700;
     font-size: 21px;
@@ -26149,24 +26149,24 @@ h4.modal-title {
     line-height: 25px;
     margin-bottom: 10px;
     margin-top: 30px; }
-  #contact-form-overlay-mini .box {
+  #contact-form-overlay-mini .box, .contact-overlay .box {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-    #contact-form-overlay-mini .box .col-1, #contact-form-overlay-mini .box .col-2 {
+    #contact-form-overlay-mini .box .col-1, #contact-form-overlay-mini .box .col-2, .contact-overlay .box .col-1, .contact-overlay .box .col-2 {
       width: 50%;
       text-align: center; }
-      #contact-form-overlay-mini .box .col-1 p, #contact-form-overlay-mini .box .col-2 p {
+      #contact-form-overlay-mini .box .col-1 p, #contact-form-overlay-mini .box .col-2 p, .contact-overlay .box .col-1 p, .contact-overlay .box .col-2 p {
         width: 100%;
         text-align: left;
         margin: 0 10px; }
         @media (max-width: 991px) {
-          #contact-form-overlay-mini .box .col-1 p, #contact-form-overlay-mini .box .col-2 p {
+          #contact-form-overlay-mini .box .col-1 p, #contact-form-overlay-mini .box .col-2 p, .contact-overlay .box .col-1 p, .contact-overlay .box .col-2 p {
             font-size: 16px; } }
         @media (max-width: 480px) {
-          #contact-form-overlay-mini .box .col-1 p, #contact-form-overlay-mini .box .col-2 p {
+          #contact-form-overlay-mini .box .col-1 p, #contact-form-overlay-mini .box .col-2 p, .contact-overlay .box .col-1 p, .contact-overlay .box .col-2 p {
             margin: 0; } }
-  #contact-form-overlay-mini a:hover {
+  #contact-form-overlay-mini a:hover, .contact-overlay a:hover {
     text-decoration: none; }
 
 @media (max-width: 480px) {
@@ -26176,6 +26176,37 @@ h4.modal-title {
 #copyrights {
   /* Rectangle Copy 5: */
   background: #5D7278; }
+
+#google-map {
+  height: 780px !important; }
+
+.contact-overlay {
+  padding: 20px 0; }
+  .contact-overlay .col-1, .contact-overlay .col-2 {
+    max-width: 25%; }
+    @media (max-width: 480px) {
+      .contact-overlay .col-1, .contact-overlay .col-2 {
+        max-width: 50%; }
+        .contact-overlay .col-1 p, .contact-overlay .col-2 p {
+          text-align: center; } }
+  .contact-overlay .box {
+    margin: 0 auto;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important; }
+    @media (max-width: 480px) {
+      .contact-overlay .box {
+        padding: 0 40px; } }
+  .contact-overlay p {
+    margin-bottom: 0;
+    line-height: 20px; }
+  .contact-overlay .p-2, .contact-overlay .p-4 {
+    margin-bottom: 10px; }
+  .contact-overlay .p-5, .contact-overlay .p-8 {
+    margin-bottom: 20px; }
+  .contact-overlay .p-7 {
+    line-height: 25px !important;
+    margin-bottom: 5px; }
 
 #slider, .swiper-container, .swiper-wrapper, .swiper-slide {
   max-height: 800px; }
@@ -26422,9 +26453,6 @@ h4.modal-title {
 #services a:hover {
   text-decoration: none; }
 
-.service-modal .modal-body, .service-modal .modal-header {
-  background: #FFF; }
-
 .service-modal h4 {
   color: #333; }
 
@@ -26446,86 +26474,15 @@ h4.modal-title {
   text-align: center; }
 
 #watch-video {
-  padding: 50px 0;
-  padding-top: 0;
   background: url("../images/video-bg.jpg");
   background-size: cover;
   background-attachment: fixed;
-  height: 1000px;
   border-bottom: 2px solid #FFF; }
-  #watch-video iframe {
-    max-width: 800px;
-    margin: 0 auto; }
-  #watch-video .fluid-width-video-wrapper {
-    max-width: 800px;
-    margin: 20px 0; }
-  #watch-video .center {
-    position: relative;
-    text-align: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    height: 1000px; }
-    @media (max-width: 991px) {
-      #watch-video .center {
-        height: 600px; } }
-    @media (max-width: 600px) {
-      #watch-video .center {
-        height: 380px; } }
-    #watch-video .center p {
-      color: #FFF;
-      font-weight: 700;
-      font-size: 40px;
-      letter-spacing: -0.5px; }
-  @media (max-width: 1200px) {
-    #watch-video {
-      background-position: 50% 50%; } }
-  @media (max-width: 900px) {
-    #watch-video {
-      height: 600px; }
-      #watch-video .center {
-        top: 40%; }
-        #watch-video .center p {
-          font-size: 34px;
-          margin-bottom: 10px; } }
-  @media (max-width: 600px) {
-    #watch-video {
-      height: 380px;
-      background-position: 60% 60%; }
-      #watch-video .center {
-        top: 35%; }
-        #watch-video .center p {
-          font-size: 24px;
-          margin-bottom: 5px; }
-        #watch-video .center img {
-          width: 15%; } }
-  #watch-video img {
-    padding: 30px; }
-  #watch-video .img-wrap {
-    border: 2px solid #FFF;
-    border-radius: 9999px;
-    width: 125px;
-    height: 125px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin: 0 auto;
-    margin-top: -20px; }
+  #watch-video .col-sm-12 {
+    padding: 50px 20px; }
     @media (max-width: 767px) {
-      #watch-video .img-wrap {
-        margin-top: 0; } }
+      #watch-video .col-sm-12 {
+        padding: 25px 0px; } }
 
 #reviews {
   padding: 60px 0;
@@ -26552,7 +26509,7 @@ h4.modal-title {
       #reviews iframe {
         max-height: 400px; } }
 
-#reviews > div > div > div > div {
+#reviews > div > div > div > div > div > div {
   display: none; }
 
 @media (max-width: 480px) {
@@ -26785,18 +26742,6 @@ h4.modal-title {
       #smile-gallery .col-2 {
         -ms-flex-wrap: wrap;
             flex-wrap: wrap; } }
-    #smile-gallery .col-2 img {
-      width: 263px;
-      height: 243px;
-      border-radius: 31px; }
-      @media (max-width: 1200px) {
-        #smile-gallery .col-2 img {
-          margin: 0 30px;
-          margin-top: 30px; } }
-      @media (max-width: 767px) {
-        #smile-gallery .col-2 img {
-          margin-left: 0 !important;
-          margin-right: 0 !important; } }
     #smile-gallery .col-2 .img-wrap p {
       margin-left: 10px;
       font-family: "Open Sans", sans-serif;
@@ -26824,33 +26769,6 @@ h4.modal-title {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center; } }
-
-#smile-gallery-modal #oc-portfolio3 {
-  padding: 20px; }
-
-#smile-gallery-modal .modal-dialog {
-  background: #FFF; }
-
-#smile-gallery-modal .owl-prev, #smile-gallery-modal .owl-next {
-  border: none;
-  opacity: 1 !important;
-  background: #00939A;
-  color: #FFF;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
-
-#smile-gallery-modal .owl-prev {
-  left: -18px; }
-
-#smile-gallery-modal .owl-next {
-  right: -18px; }
 
 #logos {
   padding: 30px 0;

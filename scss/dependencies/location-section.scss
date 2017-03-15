@@ -11,7 +11,7 @@
   }
 }
 
-#contact-form-overlay-mini {
+#contact-form-overlay-mini, .contact-overlay {
   float:left;
   padding-top:50px;
   width:450px;
@@ -175,4 +175,41 @@
 #copyrights {
   /* Rectangle Copy 5: */
   background: #5D7278;
+}
+
+#google-map {
+  height:780px !important;
+}
+.contact-overlay {
+  padding:20px 0;
+  .col-1, .col-2 {
+    max-width:25%;
+    @media (max-width:480px) {
+      max-width:50%;
+      p {
+        text-align:center;
+      }
+    }
+  }
+  .box {
+    margin:0 auto;
+    justify-content:center !important;
+    @media (max-width:480px) {
+      padding:0 40px;
+    }
+  }
+  p {
+    margin-bottom:0;
+    line-height:20px;
+  }
+  .p-2, .p-4{
+    margin-bottom:10px;
+  }
+  .p-5, .p-8 {
+    margin-bottom:20px;
+  }
+  .p-7 {
+    line-height:25px !important;
+    margin-bottom:5px;
+  }
 }
